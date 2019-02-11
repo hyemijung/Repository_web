@@ -1,0 +1,28 @@
+div table{
+		
+		text-align: center;	
+		size: 10px;
+		border: 1px solid black;
+		border-collapse: collapse;
+		width: 50px;
+	}
+	
+div table td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	}
+
+	
+#dan {
+		size: 20px;
+		background-color: gray;	
+		width: 50px;
+		
+	}
+	
+.result {
+		border: 1px solid black;
+		size: 10px
+		width: 50px;
+	
+}	
