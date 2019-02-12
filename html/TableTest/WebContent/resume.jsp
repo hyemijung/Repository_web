@@ -26,7 +26,7 @@
 		</tr>
 	</table>
 
-	<div id="div1">
+	<div id="div1" class="div">
 		<table style="width:60%; float: left; border: 0px; text-align: right; font-weight: bolder;">
 			<tr>
 				<td>입 사 지 원 서</td>

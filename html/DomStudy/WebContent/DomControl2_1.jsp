@@ -32,8 +32,9 @@
    
    
    
-   var newdiv = document.getElementsByTagName('div')[0];
-   newdiv.appendChild(newBtn1);
+//    var newdiv = document.getElementsByTagName('div')[0];
+   var newdiv = document.getElementById("theBox");
+   newdiv.appendChild(newBtn1);  /* 이것의 순서에 따라 버튼 생성 순서가 결정된다  */
    newdiv.appendChild(newBtn2);
 </script>
 </html>

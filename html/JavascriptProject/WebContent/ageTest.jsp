@@ -15,8 +15,6 @@
 	} else if (age > 0) {                /* 나이에는 마이너스가 없으므로  */
 		document.write('어린이 입니다');   /* else if 로쓰고 끝내도 상관없음(else 안적어줘도됨)  */
 	}
-	
-	
 </script>
 </head>
 <body>

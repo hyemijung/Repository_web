@@ -55,7 +55,7 @@ li의 인덱스가4번인 3번째 li을 선택하여(children)
 글자색의 파란색으로 변경하시오
 id 사용하지않고 */
 
-	var ulObj = document.getElementsByTagName('ul')[1];
+	var ulObjArr = document.getElementsByTagName('ul')[1];
 	var liObj = ulObjArr.getElementsByTagName('li')[2];
 	/* 아래와 결과는 동일한데 차이점 - 이건 정확히 ul */
 	liObj.style.color = '#0054FF';

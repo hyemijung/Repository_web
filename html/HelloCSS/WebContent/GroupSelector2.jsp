@@ -21,9 +21,9 @@
 	
 	
 	/* talbe도 보더주고, tr도 보더주고 td도 보더를준, 각각 border를 준것 */
-/* 	 table, tr,  td { */
-/* 		border: 1px solid black; */
-/* 	}  */
+	 table, tr,  td {
+		border: 1px solid black;
+	} 
 	
 /* 	collapse는 table에 적용한다 tr이나 td가 아니라 */
 	table {
@@ -31,9 +31,9 @@
 	}
 	
 /* 	주석 처리하면서 위의 것과 비교해봐라 */
-	 table > tr > td {
+	/* table > tr > td {
 		border: 1px solid black;
-	} 
+	} */
 	
 	div > h1, div li {
 		border: 1px solid black;

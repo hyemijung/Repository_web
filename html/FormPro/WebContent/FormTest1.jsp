@@ -43,14 +43,14 @@
 				<tr>
 					<td class="center">주민번호</td>
 					<td>
-						<input type="text" maxlength="6"/>
-						<input type="password" maxlength="7"/>
+						<input type="number" />-
+						<input type="password" >
 					</td>
 				</tr>
 				<tr>
 					<td class="center">이메일</td>
 					<td>
-						<input type="email"  />
+						<input type="email" />
 					</td>
 				</tr>
 				<tr>

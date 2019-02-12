@@ -5,9 +5,9 @@
 <head>
 <meta charset="UTF-8">
 <style>
-/* 	div p { */
-/* 	  background-color: yellow; */
-/* 	} */
+	div p {
+	  background-color: yellow;
+	}
 /* 	위 아래 주석처리하며 차이점을 알아봐라 */
 	div > p {
 	  background-color: yellow;
