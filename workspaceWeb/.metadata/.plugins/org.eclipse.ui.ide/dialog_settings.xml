@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\workspaceWeb\springProject"/>
+		<item value="C:\TJRepository\goHomeJsp\springHome"/>
+		<item value="C:\myRepository\JLProject\JLBoard"/>
+		<item value="C:\JLProject\JLBoard"/>
+		<item value="C:\TJRepository\goHomeJspTeam\ForExpand"/>
+		<item value="C:\TJRepository\goHomeJsp\HelloJsp"/>
+	</list>
+	<section name="CleanDialogSettings">
+		<item value="500" key="DIALOG_WIDTH"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+		<item value="402" key="DIALOG_HEIGHT"/>
+		<item value="906" key="DIALOG_X_ORIGIN"/>
+		<item value="255" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+			<item value="C:\Users\TJ\Desktop\김준혁\SoloJavaProjectKJH"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\TJ\Desktop\(박기성)애플리케이션 구현_포트폴리오\(박기성)springExam.zip"/>
+			<item value="C:\Users\TJ\Desktop\애플리케이션 실기 출제용.zip"/>
+			<item value="C:\Users\TJ\Desktop\20190408 springHome.zip"/>
+			<item value="C:\Users\TJ\Desktop\0403 5시까지.zip"/>
+			<item value="C:\Users\TJ\Desktop\springHomeTest.zip"/>
+			<item value="C:\Users\TJ\Desktop\springHome.zip"/>
+			<item value="C:\workspaceWeb\JavascriptExamTest(정혜미)\WebContent\ExamOne1_1.jsp"/>
+		</list>
+	</section>
+	<section name="ResourceNavigator">
+		<item value="Aggregate for window 1548728484506" key="ResourceWorkingSetFilter.STORE_WORKING_SET"/>
+		<item value="1" key="ResourceViewer.STORE_SORT_TYPE"/>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jst.servlet.ui.project.facet.WebProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.wst.web.ui"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
+		<item value="false" key="FilterByLocation"/>
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/springHome/src/main/webapp/WEB-INF/web.xml&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/springHome/src/main/resources/properties/jdbc.properties&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/springHome/src/main/webapp/WEB-INF/views/Header.jsp&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/springHome/src/main/java/com/edu/member/vo/MemberVo.java&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/springHome/src/main/resources/config/mybatis-config.xml&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/springHome/target/classes/com/edu/member/dao/MemberDaoImpl.class&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/springHome/src/main/resources/mappers/edu_member.xml&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/springHome/src/main/webapp/index.jsp&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/springHome/src/main/webapp/WEB-INF/views/member/memberForm.jsp&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/springHome/src/main/java/com/edu/member/controller/MemberController.java&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/springHome/target/classes/com/edu/member/service/MemberServiceImpl.class&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/springHome/src/main/java/com/edu/member/service/MemberServiceImpl.java&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/springHome/src/main/java/com/edu/member/dao/MemberDaoImpl.java&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/springHome/src/main/java/com/edu/util/FileUtils.java&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/springHome/src/main/java/com/edu/util/CommonUtils.java&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/springHome/src/main/java/com/edu/member/dao/MemberDao.java&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/Servers/Tomcat v8.0 Server at localhost-config/server.xml&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/springHome/src/main/webapp/WEB-INF/views/member/memberUpdateForm.jsp&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/springHome/src/main/webapp/WEB-INF/spring/datasource.xml&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/springHome/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/springExam/src/main/webapp/WEB-INF/web.xml&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/springExam/pom.xml&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/springHome/src/main/webapp/WEB-INF/views/member/memberListView.jsp&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/springHome/src/main/java/com/edu/member/service/MemberService.java&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;" key="History"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;" key="WorkingSet"/>
+		<item value="true" key="ShowDerived"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="583" key="DIALOG_X_ORIGIN"/>
+			<item value="367" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+</section>

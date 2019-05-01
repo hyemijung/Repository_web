@@ -1,0 +1,24 @@
+package greet.america;
+
+public class Hello {
+
+	
+	// 접근제어자
+//	변수, 메서드, 클래스, 인터페이스
+//	public 공익의, 공공의 - 를 붙여 누구든지 사용이 가능하다고 공개해준것
+//	이외에 숨길려면 접근제어자를 통한 캡슐화를 하여 건들지 못하도록 함
+	
+	
+
+//	public
+	
+	
+	 public void goodMorningPrint() {
+		System.out.println("goodmoring i'm find and you");
+	}
+
+	 void afterNoonPrint() {
+		System.out.println("good afternoon how was your lunch?");
+	}
+
+}

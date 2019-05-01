@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="name" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="name"/>
+			<item value="memberInput"/>
+			<item value="previousPageBtn"/>
+			<item value="login"/>
+			<item value="loginDiv"/>
+			<item value="fail"/>
+			<item value="fial"/>
+			<item value="shopNameInput"/>
+			<item value="service.login"/>
+			<item value="service.do"/>
+			<item value="memberRegi"/>
+			<item value="session"/>
+			<item value="exist"/>
+			<item value="insert"/>
+			<item value="add"/>
+		</list>
+		<list key="replacehistory">
+			<item value="moveMainPageBtn"/>
+			<item value="loginBoxDiv"/>
+			<item value="purchaseListBtn"/>
+			<item value="address"/>
+			<item value="headerContainer"/>
+			<item value="headerLine"/>
+			<item value="8090"/>
+			<item value="UTF-8"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="288" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="391" key="DIALOG_HEIGHT"/>
+		<item value="8" key="DIALOG_X_ORIGIN"/>
+		<item value="331" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

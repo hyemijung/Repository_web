@@ -1,0 +1,59 @@
+
+2월 01, 2019 12:08:09.58 NEW SESSION
+2월 01, 2019 12:08:09.58 [1468:4580:0201/120809.584:ERROR:backend_impl.cc(1062)] Critical error found -8
+2월 01, 2019 12:08:10.88 [1468:4580:0201/120810.888:ERROR:entry_impl.cc(985)] Failed to save user data
+2월 01, 2019 12:08:10.90 [1468:4580:0201/120810.888:ERROR:entry_impl.cc(985)] Failed to save user data
+2월 01, 2019 12:08:25.88 [1468:4580:0201/120825.889:ERROR:backend_impl.cc(1062)] Critical error found -8
+2월 01, 2019 12:08:32.31 [1468:6716:0201/120832.314:ERROR:shader_disk_cache.cc(257)] Failed to create shader cache entry: -2
+2월 01, 2019 12:08:32.32 [1468:4580:0201/120832.323:ERROR:backend_impl.cc(1062)] Critical error found -8
+2월 01, 2019 12:08:32.36 [1468:6716:0201/120832.366:ERROR:shader_disk_cache.cc(257)] Failed to create shader cache entry: -2
+2월 01, 2019 12:08:32.39 [1468:6716:0201/120832.366:ERROR:shader_disk_cache.cc(257)] Failed to create shader cache entry: -2
+2월 01, 2019 13:22:40.59 [1468:6716:0201/132240.592:ERROR:socket_stream.cc(219)] Closing stream with result -2
+2월 01, 2019 13:22:40.60 [1468:6716:0201/132240.601:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -105
+2월 01, 2019 13:57:06.54 [1468:6716:0201/135706.541:ERROR:connection_factory_impl.cc(411)] Failed to connect to MCS endpoint with error -106
+2월 01, 2019 14:29:20.09 [1468:3064:0201/142920.098:ERROR:textfield.cc(1777)] NOT IMPLEMENTED
+2월 01, 2019 14:29:27.53 [1468:6716:0201/142927.535:ERROR:shader_disk_cache.cc(257)] Failed to create shader cache entry: -2
+2월 01, 2019 16:08:47.01 [1468:1268:0201/160847.018:ERROR:audio_manager_base.cc(363)] Invalid audio output parameters received; using fake audio path: format: 0 channel_layout: 0 channels: 0 sample_rate: 0 frames_per_buffer: 0 effects: 0 mic_positions: 
+2월 01, 2019 16:54:41.65 [1468:1268:0201/165441.654:ERROR:audio_manager_base.cc(363)] Invalid audio output parameters received; using fake audio path: format: 0 channel_layout: 0 channels: 0 sample_rate: 0 frames_per_buffer: 0 effects: 0 mic_positions: 
+
+2월 11, 2019 11:10:40.32 NEW SESSION
+2월 11, 2019 11:10:40.32 [8272:4832:0211/111040.306:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+
+2월 12, 2019 19:23:43.76 NEW SESSION
+2월 12, 2019 19:23:43.76 [1020:1708:0212/192343.737:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+
+3월 06, 2019 16:31:36.11 NEW SESSION
+3월 06, 2019 16:31:36.11 [7140:9672:0306/163136.117:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+3월 06, 2019 16:31:36.32 [7140:10548:0306/163136.320:ERROR:browser_process_sub_thread.cc(209)] Waited 102 ms for network service
+3월 06, 2019 17:05:07.61 [9252:7244:0306/170507.617:ERROR:appcache_update_url_loader_request.cc(138)] NOT IMPLEMENTED
+3월 06, 2019 17:17:49.62 [9252:3412:0306/171749.628:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+3월 06, 2019 17:17:49.91 [9252:7244:0306/171749.910:ERROR:browser_process_sub_thread.cc(209)] Waited 134 ms for network service
+3월 06, 2019 18:05:07.63 [6964:4984:0306/180507.636:ERROR:appcache_update_url_loader_request.cc(138)] NOT IMPLEMENTED
+
+3월 13, 2019 14:14:26.90 NEW SESSION
+3월 13, 2019 14:14:26.90 [3744:9320:0313/141426.904:ERROR:appcache_update_url_loader_request.cc(138)] NOT IMPLEMENTED
+3월 13, 2019 14:14:27.00 [3744:7624:0313/141427.000:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+3월 13, 2019 14:14:28.69 [3744:9320:0313/141428.693:ERROR:browser_process_sub_thread.cc(209)] Waited 979 ms for network service
+3월 13, 2019 15:15:08.36 [2536:6936:0313/151508.361:ERROR:appcache_update_url_loader_request.cc(138)] NOT IMPLEMENTED
+3월 13, 2019 15:32:47.24 [2536:7644:0313/153247.246:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+3월 13, 2019 15:32:47.46 [2536:6936:0313/153247.466:ERROR:browser_process_sub_thread.cc(209)] Waited 50 ms for network service
+3월 13, 2019 15:55:10.58 [9744:9976:0313/155510.587:ERROR:appcache_update_url_loader_request.cc(138)] NOT IMPLEMENTED
+3월 13, 2019 15:55:10.60 [9744:9976:0313/155510.589:ERROR:appcache_update_url_loader_request.cc(138)] NOT IMPLEMENTED
+3월 13, 2019 15:55:10.92 [9744:9976:0313/155510.920:ERROR:appcache_update_url_loader_request.cc(138)] NOT IMPLEMENTED
+3월 13, 2019 15:55:10.92 [9744:9976:0313/155510.920:ERROR:appcache_update_url_loader_request.cc(138)] NOT IMPLEMENTED
+3월 13, 2019 15:55:10.99 [9744:9976:0313/155510.990:ERROR:appcache_update_url_loader_request.cc(138)] NOT IMPLEMENTED
+3월 13, 2019 15:55:10.99 [9744:9976:0313/155510.991:ERROR:appcache_update_url_loader_request.cc(138)] NOT IMPLEMENTED
+3월 13, 2019 15:55:11.19 [9744:9976:0313/155511.195:ERROR:appcache_update_url_loader_request.cc(138)] NOT IMPLEMENTED
+3월 13, 2019 15:55:11.50 [9744:9976:0313/155511.505:ERROR:appcache_update_url_loader_request.cc(138)] NOT IMPLEMENTED
+3월 13, 2019 15:55:11.51 [9744:9976:0313/155511.506:ERROR:appcache_update_url_loader_request.cc(138)] NOT IMPLEMENTED
+3월 13, 2019 16:56:07.62 [9744:9976:0313/165607.620:ERROR:appcache_update_url_loader_request.cc(138)] NOT IMPLEMENTED
+3월 13, 2019 16:57:47.18 [9744:2140:0313/165747.181:ERROR:platform_sensor_reader_win.cc(242)] NOT IMPLEMENTED
+3월 13, 2019 16:57:55.79 [9744:2140:0313/165755.791:ERROR:platform_sensor_reader_win.cc(242)] NOT IMPLEMENTED
+3월 13, 2019 16:57:59.09 [9744:2140:0313/165759.095:ERROR:platform_sensor_reader_win.cc(242)] NOT IMPLEMENTED
+3월 13, 2019 17:00:33.44 [9744:2500:0313/170033.448:ERROR:textfield.cc(1777)] NOT IMPLEMENTED
+3월 13, 2019 17:23:52.70 [9744:2500:0313/172352.695:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+3월 13, 2019 17:23:53.20 [9744:9976:0313/172353.202:ERROR:browser_process_sub_thread.cc(209)] Waited 20 ms for network service
+3월 13, 2019 18:16:45.96 [3304:5884:0313/181645.962:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+3월 13, 2019 18:16:46.21 [3304:4900:0313/181646.210:ERROR:browser_process_sub_thread.cc(209)] Waited 92 ms for network service
+3월 13, 2019 18:19:03.56 [8248:6132:0313/181903.557:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+3월 13, 2019 18:19:03.79 [8248:6996:0313/181903.789:ERROR:browser_process_sub_thread.cc(209)] Waited 115 ms for network service

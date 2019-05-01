@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.edu.member">
+	
+	<resultMap type="com.edu.member.vo.MemberVo" id="memberResultMap">
+		<id column="MNO" property="no"/>
+		<result column="MNAME" property="name" />
+		<result column="EMAIL" property="email" />
+		<result column="PWD" property="password" />
+		<result column="CRE_DATE" property="createDate" javaType="java.util.Date" />
+		<result column="MOD_DATE" property="modifiedDate" javaType="java.util.Date" />
+	
+	</resultMap>
+	
+<!-- 	<select id="memberSelectList" parameterType="map" -->
+<!-- 		resultMap="memberResultMap"> -->
+		
+<!-- 		SELECT MNO, MNAME, EMAIL, CRE_DATE -->
+<!-- 		FROM MEMBERS -->
+<!-- 		ORDER BY CRE_DATE DESC -->
+		
+<!-- 	</select> -->
+
+
+
+	<select id="memberSelectList" parameterType="map"
+		resultMap="memberResultMap">
+		
+		SELECT MNO, MNAME, EMAIL, CRE_DATE
+			FROM(
+    		SELECT ROWNUM RNUM, M.MNO, M.MNAME, M.EMAIL, M.CRE_DATE
+    			FROM(
+			         SELECT MNO, MNAME, EMAIL, CRE_DATE
+			         FROM MEMBERS
+			         ORDER BY MNO DESC ) M
+			) MEMBER
+		WHERE RNUM BETWEEN #{start} AND #{end}
+		
+	</select>
+
+
+	<select id=""  parameterType="int">
+<!-- 		업무에서 원하는 select 문장을 적는다 -->
+		SELECT MNO, MNAME, EMAIL, CRE_DATE
+		FROM MEMBERS
+		where mno = ${dsf}
+		ORDER BY CRE_DATE DESC
+	</select>
+
+	<select id="memberExist" parameterType="map"
+		resultMap="memberResultMap">
+<!-- 		소문자 대문자 다 가능 그냥 sql문을 자바와 차별두려 대문자로 적어준것뿐 -->
+		SELECT MNO, MNAME, EMAIL
+		FROM MEMBERS
+		WHERE EMAIL = #{email} and PWD = #{pwd}
+		
+	</select>
+	
+	<insert id="memberInsertOne" parameterType="com.edu.member.vo.MemberVo">
+		insert into members
+		(mno, email, pwd, mname, cre_date, mod_date)
+		values(MEMEBERS_MNO_SEQ.nextval, #{email},  #{password},
+        		 #{name}, sysdate, sysdate) 
+	
+	</insert>
+	
+	<select id="memberSelectOne" parameterType="int"
+		resultMap="memberResultMap">
+		SELECT MNO, MNAME, EMAIL, CRE_DATE
+		FROM MEMBERS
+		WHERE MNO = #{no}
+<!-- 	한명의 유일한 값을 불러오고 싶기때문에 기본키로 설정된 no를 불러온 것이다 -->
+	</select>
+	
+	
+	<update id="memberUpdateOne" parameterType="memberVo">
+		update 	members
+		<set>
+			<if test="name != ''">MNAME = #{name},</if>
+			<if test="email != ''">EMAIL = #{email},</if>
+			<if test="password != ''">PWD = #{password},</if>
+			MOD_DATE = SYSDATE
+		</set>
+		   		
+		WHERE 	MNO = #{no}
+	</update>
+	
+	<delete id="memberDelete" parameterType="int">
+		delete from members
+		where mno= #{no}
+	</delete>
+	
+	<select id="memberSelectTatalCount" resultType="int">
+		SELECT COUNT(*)
+		FROM MEMBERS
+	</select>
+
+</mapper>

@@ -1,0 +1,3 @@
+for (int i = 0; i < userArr.length; i++) {
+			System.out.println(userArr[i]);
+		}

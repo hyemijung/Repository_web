@@ -1,0 +1,148 @@
+/* headerCss */
+
+	#headerContainer {
+		width: 1904px;
+	}
+	
+	
+	.shopName {
+		float: left;
+		margin-top: 20px;
+		margin-left: 100px;
+		margin-bottom: 15px;
+		
+	}
+	
+	.shopName input  {
+		background-color: #636363; 
+		text-align: center; 
+		width: 250px; 
+		height: 50px;
+		color: #FFFFFF;
+		font-size: 23px; 
+		font-weight: bolder;
+		font-style: normal;
+		font-family: "Lucida Console", Monaco, monospace;
+		border-radius: 7px;
+				
+	}
+	
+	.fncButton {
+		float: right;
+		margin-top: 47px;
+		margin-right: 50px;
+	}
+	
+	.headerLine {
+		clear: both;
+		margin-top: 50px;
+	}
+	
+	.headerLine hr {
+		border: solid 1.5px #ABABAB;
+	}
+	
+	.productRegiBtn {
+		background-color: #DBDBDB; 
+		text-align: center; 
+		width:70px; 
+		height: 25px;
+		color: #939393;
+		font-size: 11px; 
+		font-weight: bolder;
+		font-style: normal;
+		font-family: "Lucida Console", Monaco, monospace;
+		border-radius: 5px;
+	}
+	
+	
+	
+	
+	.myPageBtn {
+		background-color: #DBDBDB; 
+		text-align: center; 
+		width:70px; 
+		height: 25px;
+		color: #939393;
+		font-size: 11px; 
+		font-weight: bolder;
+		font-style: normal;
+		font-family: "Lucida Console", Monaco, monospace;
+		border-radius: 5px;
+	}
+	
+	
+	.memberListBtn {
+		background-color: #DBDBDB; 
+		text-align: center; 
+		width:70px; 
+		height: 25px;
+		color: #939393;
+		font-size: 11px; 
+		font-weight: bolder;
+		font-style: normal;
+		font-family: "Lucida Console", Monaco, monospace;
+		border-radius: 5px;
+	}
+	
+	.purchaseListBtn {
+		background-color: #636363;
+		text-align: center; 
+		width:70px; 
+		height: 25px;
+		color: #FFFFFF;
+		font-size: 11px; 
+		font-weight: bolder;
+		font-style: normal;
+		font-family: "Lucida Console", Monaco, monospace;
+		border-radius: 5px;
+	}
+	
+	.logoutBtn {
+		background-color: #636363;
+		text-align: center; 
+		width:70px; 
+		height: 25px;
+		color: #FFFFFF;
+		font-size: 11px; 
+		font-weight: bolder;
+		font-style: normal;
+		font-family: "Lucida Console", Monaco, monospace;
+		border-radius: 5px;
+	}
+	 .menu {
+      background-color: #636363; 
+      text-align: center; 
+      width: 250px; 
+      height: 27px;
+      color: #FFFFFF;
+      font-size: 20px; 
+      font-weight: bolder;
+      font-style: normal;
+      font-family: "Lucida Console", Monaco, monospace;
+      margin-left: 340px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border-radius: 7px;
+      border: 0px;
+      
+   }
+	 .search {
+      background-color: #636363; 
+      text-align: left; 
+      width: 250px; 
+      height:27px;
+      color: #FFFFFF;
+      font-size: 17px; 
+      font-weight: bolder;
+      font-style: normal;
+      font-family: "Lucida Console", Monaco, monospace;
+      margin-left: 680px;
+      margin-top: 17px;
+      margin-bottom: 20px;
+      border-radius: 7px;
+      border: 0px;
+      vertical-align: bottom;
+   }
+	
+	

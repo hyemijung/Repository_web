@@ -1,0 +1,27 @@
+package test.state;
+
+public class TestMain2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// 두 수의 차이를 알려주는 기능
+		int x= 0;
+		int y = 0;
+		int result = 0;
+		
+		while(x != y) {
+			
+			if (x > y) {
+				result = x - y;
+			} else {
+				result = y - x;
+			}
+		} // while end
+		
+		result = x;
+		
+		System.out.println(result);
+	}
+
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\TJ\Desktop\myungsunLotteryStore0306"/>
+		<item value="C:\Users\TJ\Desktop\정혜미(JavaExamTest)\JavaExamTest"/>
+		<item value="C:\Users\TJ\Desktop\시험지\(자신의 이름기입)JavaExamTest(20190110).zip"/>
+		<item value="C:\Users\TJ\Desktop\PrepareExam"/>
+		<item value="C:\gitWorkspaces\tgJavaWorkspace"/>
+		<item value="C:\gitWorkspaces\tgJavaWorkspace\HelloProject"/>
+		<item value="C:\workspace"/>
+	</list>
+	<section name="CleanDialogSettings">
+		<item value="500" key="DIALOG_WIDTH"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+		<item value="402" key="DIALOG_HEIGHT"/>
+		<item value="1312" key="DIALOG_X_ORIGIN"/>
+		<item value="302" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\TJ\Desktop\myungsunLotteryStore0306\LotteryShopFinal0227"/>
+			<item value="C:\Users\TJ\Desktop\myungsunLotteryStore0306"/>
+			<item value="C:\Users\TJ\Desktop\이명선\로또시연이명선\LotteryShopFinal"/>
+			<item value="C:\Users\TJ\Desktop\ShopVer4"/>
+			<item value="C:\Users\TJ\Desktop\주말숙제이명선"/>
+			<item value="C:\workspace"/>
+			<item value="C:\temp\workspace\RelationEx"/>
+			<item value="C:\temp\workspace\MainTest"/>
+			<item value="C:\temp\workspace\ArrayEx"/>
+			<item value="C:\Users\TJ\Desktop\박강인\lotto_project_pki"/>
+			<item value="C:\workspace\PrepareExam"/>
+			<item value="C:\workspace\JavaExamTest"/>
+			<item value=""/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+			<item value="C:\Users\TJ\Desktop\시험지\(자신의 이름기입)JavaExamTest(20190110).zip"/>
+			<item value="C:\Users\TJ\Desktop\backup.zip"/>
+			<item value="C:\Users\TJ\Desktop\HelloProject.zip"/>
+		</list>
+	</section>
+	<section name="ResourceNavigator">
+		<item value="Aggregate for window 1545359601118" key="ResourceWorkingSetFilter.STORE_WORKING_SET"/>
+		<item value="1" key="ResourceViewer.STORE_SORT_TYPE"/>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
+		<item value="false" key="FilterByLocation"/>
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/ExamCheck/src/Tv.java&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/ExamCheck/src/Product.java&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;" key="History"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;" key="WorkingSet"/>
+		<item value="false" key="ShowDerived"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="437" key="DIALOG_X_ORIGIN"/>
+			<item value="140" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+</section>

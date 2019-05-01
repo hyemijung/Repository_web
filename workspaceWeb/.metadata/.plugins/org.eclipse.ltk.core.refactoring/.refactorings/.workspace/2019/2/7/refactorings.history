@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;JavascriptExamTest&apos; to &apos;JavascriptExamTest(정혜미)&apos;" description="Rename resource &apos;JavascriptExamTest&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/JavascriptExamTest" name="JavascriptExamTest(정혜미)" stamp="1550040187887" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;JavascriptExamTest&apos; to &apos;JavascriptExamTest(김충현)&apos;" description="Rename resource &apos;JavascriptExamTest&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/JavascriptExamTest" name="JavascriptExamTest(김충현)" stamp="1550042578986" updateReferences="true"/>
+</session>

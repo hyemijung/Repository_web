@@ -1,0 +1,25 @@
+
+public class ArrayEx9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+//		로또 프로그램 만들기
+		
+
+		int[] ballArr = new int[45];
+
+		for (int i = 0; i < ballArr.length; i++) {
+			ballArr[i] = i+1;
+		}
+
+		for (int i = 0; i < ballArr.length; i++) {
+			System.out.print(ballArr[i] + " ");
+			if ((i + 1) % 5 == 0) {
+				System.out.println();
+			}
+		}
+		
+		
+	}
+}

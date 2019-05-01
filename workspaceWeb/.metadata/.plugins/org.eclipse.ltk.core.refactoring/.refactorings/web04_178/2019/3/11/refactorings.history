@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;tg.member.servlets.RevisedMemeberListServlet&apos; to &apos;MemeberOneListServlet&apos;&#x0D;&#x0A;- Original project: &apos;web04_178&apos;&#x0D;&#x0A;- Original element: &apos;tg.member.servlets.RevisedMemeberListServlet&apos;&#x0D;&#x0A;- Renamed element: &apos;tg.member.servlets.MemeberOneListServlet&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;RevisedMemeberListServlet&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;tg.member.servlets{RevisedMemeberListServlet.java[RevisedMemeberListServlet" matchStrategy="1" name="MemeberOneListServlet" qualified="false" references="true" similarDeclarations="false" stamp="1552281960037" textual="false" version="1.0"/>
+</session>

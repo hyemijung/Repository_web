@@ -1,0 +1,24 @@
+package test.state;
+
+public class CompareNumber2 {
+
+	public int compareNumberDiff2(int x, int a) {
+		
+		// 주어진 값(x)이 1보다 크면 주어진 값 / 2
+		// 주어진 값이(x) 2보다 크면 주어진 값 * 2
+//				int x = 0;
+//				int a = 3;
+						
+				if (x > 1) {
+					x = x / a;
+				} else if (a > 2){
+					x = x + 1;
+				}
+
+				System.out.println("결과는 : " + x);
+		
+		return x;
+	}
+	
+	
+}

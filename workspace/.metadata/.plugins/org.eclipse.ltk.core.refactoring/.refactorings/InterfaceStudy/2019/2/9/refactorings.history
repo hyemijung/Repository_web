@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;muteTv&apos; to &apos;MuteTv&apos;&#x0D;&#x0A;- Original project: &apos;InterfaceStudy&apos;&#x0D;&#x0A;- Original element: &apos;muteTv&apos;&#x0D;&#x0A;- Renamed element: &apos;MuteTv&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;muteTv&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{muteTv.java[muteTv" matchStrategy="1" name="MuteTv" qualified="false" references="true" similarDeclarations="false" stamp="1551152435423" textual="false" version="1.0"/>
+</session>

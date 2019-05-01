@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="kr.co.jsphomme.product">
+
+	<resultMap type="productVo" id="productResultMap">
+		<id column="PRODUCT_NO" property="productNo" />
+		<result column="NAME" property="name" />
+		<result column="QUANTITY" property="quantity" />
+		<result column="PRICE" property="price" />
+		<result column="DETAIL" property="detail" />
+		<result column="ORIGINAL_FILE_NAME" property="originalFileName" />
+		<result column="STORED_FILE_NAME" property="storedFileName" />
+		<result column="FILE_SIZE" property="fileSize" />
+		<result column="ENROLLMENT_DATE" property="enrollmentDate"
+			javaType="java.util.Date" />
+	</resultMap>
+	
+	<select id="productListView" resultMap="productResultMap">
+		SELECT PRODUCT_NO, NAME, QUANTITY, PRICE, STORED_FILE_NAME
+			FROM (
+			SELECT ROWNUM RNUM, P.PRODUCT_NO, P.NAME, P.QUANTITY, P.PRICE, P.STORED_FILE_NAME
+				FROM (
+					SELECT PRODUCT_NO, NAME, QUANTITY, PRICE, STORED_FILE_NAME
+					FROM PRODUCT
+					<if test="keyword != ''">
+						WHERE NAME LIKE '%'||#{keyword}||'%'
+					</if>
+                    ORDER BY PRODUCT_NO DESC) P
+            )PRODUCT
+		WHERE RNUM BETWEEN #{start} AND #{end}
+	</select>
+	
+	<select id="productOneDeteilView" resultMap="productResultMap" parameterType="int">
+		SELECT PRODUCT_NO, NAME, QUANTITY, ORIGINAL_FILE_NAME, PRICE, DETAIL, STORED_FILE_NAME, FILE_SIZE, enrollment_Date
+		FROM PRODUCT
+		WHERE PRODUCT_NO = #{productNo}
+	</select>
+	
+	<select id="productSelectTotalCount" resultType="int" parameterType="java.lang.String">
+		SELECT COUNT(*)
+		FROM PRODUCT
+		<if test="value != ''">
+			WHERE NAME LIKE '%'||#{value}||'%'
+		</if>
+	</select>
+	
+	<insert id="productInsert" parameterType="memberVo" 
+		useGeneratedKeys="true" keyProperty="productNo">
+		<selectKey keyProperty="productNo" resultType="int" order="BEFORE">
+			SELECT PRODUCT_NO_SEQ.NEXTVAL FROM DUAL
+		</selectKey>
+		
+		INSERT INTO PRODUCT(
+		    PRODUCT_NO, NAME, QUANTITY, PRICE, DETAIL, 
+		    ORIGINAL_FILE_NAME, STORED_FILE_NAME, FILE_SIZE, ENROLLMENT_DATE
+		)
+		VALUES(
+		    #{productNo}, #{name}, #{quantity}, #{price}, #{detail}, 
+		    #{originalFileName}, #{storedFileName}, #{fileSize}, SYSDATE)
+	</insert>
+	
+	<update id="productUpdate" parameterType="productVo">
+		UPDATE PRODUCT
+		    <set>
+				<if test="name != ''">NAME = #{name},</if>
+		        <if test="quantity != ''">QUANTITY = QUANTITY + #{quantity},</if>
+		        <if test="price != ''">PRICE = #{price},</if>
+		        <if test="detail != ''">DETAIL = #{detail},</if>
+		        <if test="originalFileName != ''">ORIGINAL_FILE_NAME = #{originalFileName},</if>
+		        <if test="storedFileName != ''">STORED_FILE_NAME = #{storedFileName},</if>
+		        <if test="fileSize != ''">FILE_SIZE = #{fileSize}</if>
+			</set>
+		WHERE PRODUCT_NO = #{productNo}
+	</update>
+
+</mapper>

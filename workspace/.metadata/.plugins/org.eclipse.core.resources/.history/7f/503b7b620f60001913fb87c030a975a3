@@ -1,0 +1,43 @@
+package test.state;
+
+import org.junit.Test;
+
+public class CompareNumberTest {
+
+	@Test
+	public void testCompareNumDiff() {
+
+		// 두 수의 차이를 알려주는 기능
+		
+		int result = 0;
+
+		while (x != y) {
+
+			if (x > y) {
+				result = x - y;
+			} else {
+				result = y - x;
+			}
+		} // while end
+
+		
+	}
+	
+	
+	public void testNumberChange() {
+		
+		
+		int a = 2;
+				
+		if (x > 1) {
+			x = x / a;
+		} else if (a > 2){
+			x = x + 1;
+		}
+
+		System.out.println("결과는: " + x);
+		
+
+	}
+
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration PUBLIC "-//APACHE//DTD LOG4J 1.2//EN" "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+	<!-- Appenders -->
+	<appender name="console" class="org.apache.log4j.ConsoleAppender">
+		<param name="Target" value="System.out" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%-5p: %c - %m%n" />
+		</layout>
+	</appender>
+	
+	<!-- Application Loggers -->
+	<logger name="com.edu"> <!-- name="com.edu.member"라고 적으면 member안에만 적용됨 -->
+		<level value="debug" /> <!-- 저 패키지 아래 모든파일을 관리하기위해 저렇게 씀 -->
+	</logger>
+	
+	<!-- 3rdparty Loggers -->				<!-- 여기 아래부터는 그냥 -->
+	<logger name="org.springframework.core"><!-- 정형화되있는 부분임 -->
+		<level value="info" />				<!-- 그냥 적어놓고 쓰면 됨 -->
+	</logger>
+	
+	<logger name="org.springframework.beans">
+		<level value="info" />
+	</logger>
+	
+	<logger name="org.springframework.context">
+		<level value="info" />
+	</logger>
+
+	<logger name="org.springframework.web">
+		<level value="info" />
+	</logger>
+
+	<!-- Root Logger -->
+	<root>		<!-- 최상위에서 관리. 여기도 뭐..정형화..뭐시기..부지렁이.. -->
+		<priority value="debug" /> <!-- info에서 trace로 바꿨더니 진짜 trace해줌..! -->
+		<appender-ref ref="console" />
+	</root>
+	
+</log4j:configuration>

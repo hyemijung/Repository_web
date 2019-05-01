@@ -1,0 +1,32 @@
+package test.state;
+
+public class TestMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		CompareNumber cn2 = new CompareNumber();
+		
+				
+		cn2.numberChange(8);
+		
+		
+
+		
+		
+		
+//		// 주어진 값이 1보다 크면 주어진 값 / 2
+//		// 주어진 값이 2보다 크면 주어진 값 * 2
+//		int x = 0;
+//		int a = 2;
+//				
+//		if (x > 1) {
+//			x = x / a;
+//		} else if (a > 2){
+//			x = x + 1;
+//		}
+//
+//		System.out.println("결과는 : " + x);
+	}
+
+}
